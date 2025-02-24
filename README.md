@@ -1,36 +1,31 @@
-# Travel Bot - بات تلگرام راهنمای سفر
+# Travel Bot - Telegram Travel Guide Bot
 
-این بات تلگرام به کاربران کمک می‌کند تا فاصله بین دو شهر را محاسبه کنند و اطلاعات مختلفی مثل وضعیت آب و هوا و مکان‌های دیدنی شهرها را دریافت کنند.
+This Telegram bot helps users calculate the distance between two cities and receive various information such as weather status and tourist attractions of cities.
 
-## قابلیت‌ها
-- محاسبه مسافت بین دو شهر
-- تخمین زمان سفر با ماشین، قطار و هواپیما
-- نمایش وضعیت آب و هوای مقصد
-- ارائه اطلاعات درباره شهر مقصد (جمعیت، مکان‌های دیدنی، غذاها و ...)
+## Features
+- Calculate the distance between two cities
+- Estimate travel time by car, train, and airplane
+- Display the weather status of the destination
+- Provide information about the destination city (population, attractions, foods, etc.)
 
-## نصب و راه‌اندازی
+## Installation and Setup
 
-
-### 1. نصب نیازمندی‌ها
-برای نصب نیازمندی‌های پروژه، از دستور زیر استفاده کنید:
+### 1. Install Dependencies
+To install the required dependencies for the project, use the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. تنظیمات API
-ساخت فایل .env
-در پروژه خود، یک فایل با نام .env بسازید و مقادیر زیر را در آن وارد کنید:
+### 2. API Configuration
+Create a .env file In your project, create a .env file and add the following values:
 
-BOT_TOKEN=توکن_بات_تلگرام
+BOT_TOKEN=your_telegram_bot_token
 
-### 3.راه‌اندازی بات
-پس از ایجاد فایل .env با مقادیر لازم، بات را با اجرای دستور زیر راه‌اندازی کنید:
-
+### 3. Running the Bot
+After creating the .env file, start the bot by running the following command:
 ```
 python main.py
 ```
-### 4. استفاده از بات
-با استفاده از /start بات را شروع کنید.
-برای محاسبه مسافت، از دستور /calculate استفاده کنید و دو شهر را وارد کنید.
-برای مشاهده وضعیت آب و هوا و اطلاعات بیشتر درباره یک شهر، روی گزینه‌های در دسترس در پاسخ بات کلیک کنید.
+### 4. Using the Bot
+Start the bot by typing /start. To calculate the distance, use the /calculate command and enter two cities. To view the weather and more information about a city, click on the available options in the bot's reply.
